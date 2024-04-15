@@ -81,7 +81,6 @@ const App = () => {
 
   return (
     <>
-      <h5>{selectedCategory}</h5>
       {error && <h4 className="text-danger">{error}</h4>}
       <ExpenseForm addExpense={addExpense} categories={categories} />
       <ExpenseFilter
